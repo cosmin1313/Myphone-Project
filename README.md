@@ -1,13 +1,3 @@
-# myProject2
-Proiect CodersLab
-
-1.Clone
-
-
-2.Run npm install
-
-3.1 use: npm run start [for dev-server]
-
-3.2 use: npm run build [for build]
-# Myphone
-# Myphone-Project
+<h1> Myphone project, a simple presentation</h1>
+<h2> This webpage was created using HTML and CSS </h2>
+<h3> You can check my website here, https://cosmin1313.github.io/Myphone-Project/ </h3>
