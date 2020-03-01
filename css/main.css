@@ -1,0 +1,370 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /*background-color: black;*/
+    font-family: 'Lato', sans-serif;
+}
+
+
+/*          HEADER START             */
+header {
+    width: 100%;
+    margin: auto;
+    color: grey;
+}
+
+.nav-list {
+    padding-top: 33px;
+    font-size: 20px;
+    padding-right: 70px;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    /*border: 1px solid red;*/
+    background-color: black;
+    color: white;
+    height: 100px;
+    padding-top: 8px;
+
+}
+
+.nav-bar h3 {
+    margin-left: 10px;
+}
+
+.nav-bar h3 a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-list li {
+    display: inline;
+    /*border: 1px solid blue;*/
+    margin-left: 10px;
+    margin-right: 40px;
+
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color: lightgray;
+
+}
+.nav-list li a:hover{
+    color: white;
+
+}
+
+#img-logo {
+    width: 150px;
+    height: 150px;
+    margin-top: -30px;
+    margin-left: 56px;
+}
+
+/*                     HEADER END                 */
+/*                     PRESENTATION START         */
+.presentation {
+    background-color: black;
+    padding-top: 70px;
+    color: white;
+    text-align: center;
+}
+
+.presentation h1 {
+    font-size: 50px;
+}
+
+.presentation p {
+    font-size: 20px;
+    padding-top: 27px;
+}
+
+.presentation p:nth-of-type(2) {
+    color: grey;
+    padding-bottom: 20px;
+}
+
+.presentation p:nth-of-type(3) {
+    color: #2997ff;
+
+}
+
+.presentation p a {
+    text-decoration: none;
+    padding: 15px 35px 15px 35px;
+    border: 2px solid #2997ff;
+    border-radius: 19px;
+    background-color: black;
+    color: white;
+}
+.presentation p a:hover{
+    background-color: #2997ff;
+    color: black;
+}
+
+.presentation img {
+    padding-top: 100px;
+    margin-bottom: 100px;
+
+}
+
+/*                     PRESENTATION END         */
+
+/*                     DESCRIPTION START        */
+#description {
+
+    padding-top: 70px;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+
+}
+
+.description-text {
+
+    width: 15%;
+    text-align: center;
+    font-size: 20px;
+    padding-top: 150px;
+
+}
+
+.description-text h2 {
+    font-size: 20px;
+}
+
+.description-text h3 {
+    padding-top: 20px;
+    font-size: 27px;
+}
+
+.description-text p {
+    color: grey;
+}
+
+.description-img img {
+    width: 80%;
+    height: auto;
+}
+
+/*                          END OF DESCRIPTION              */
+
+
+/*                          START OF DESCRIPTION COMPARISON   */
+.container {
+    width: 100%;
+    height: 350px;
+    background-color: white;
+}
+
+.description-comparison {
+    width: 70%;
+    height: 100%;
+    display: flex;
+    margin: 0 auto;
+    background-color: #fafafa;
+}
+
+.description-comparison-text {
+    width: 70%;
+    text-align: center;
+    background-color: #fafafa;
+    padding-top: 125px;
+    /*border: 1px solid red;*/
+}
+
+.description-comparison-text h2 {
+
+    padding-left: 350px;
+    font-size: 30px;
+
+}
+
+.description-img-comparison img {
+    /*height: 80%;*/
+    /*width: 80%;*/
+}
+
+/*                  END OF DESCRIPTION COMPARISON       */
+
+/*                  START OF CHOOSE MODEL               */
+
+.choose-model {
+    padding-top: 50px;
+    color: black;
+    background-color: #f2f2f2;
+    height: 10%;
+    margin: 0 auto;
+    width: 70%;
+}
+
+.choose-model h2 {
+    text-align: center;
+    font-size: 35px;
+}
+
+.choose-model-list-phones {
+    display: flex;
+    /* border: 1px solid red; */
+    height: 70%;
+    width: 90%;
+    margin: 0 auto;
+
+}
+
+#model-phones-list {
+    height: 840px;
+    /*border: 1px solid red;*/
+    background-color: #f2f2f2;
+    width: 100%;
+    margin: 60px auto;
+}
+
+#model-phones-list h2 {
+    padding-top: 18px;
+    text-align: center;
+    padding-bottom: 15px;
+    margin-top: 13px;
+}
+#model-phones-list h1{
+    text-align: center;
+    padding-top: 51px;
+    padding-bottom: 63px;
+    font-size: 30px;
+}
+
+
+.model-phones {
+    /*border: 1px solid blue;*/
+    width: 70%;
+    height: 540px;
+}
+.phone-list{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 190px;
+    height: 268px;
+}
+.phone-list-pro{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 236px;
+    height: 268px;
+}
+.phone-description{
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 12px;
+}
+.phone-list-text{
+    /*border: 1px solid blue;*/
+    width: 73%;
+    margin: 0 auto;
+}
+
+/*              END OF CHOOSE MODEL             */
+
+/*              START OF SPECIFICATIONS         */
+
+/*              FOOTER START                    */
+
+#footer{
+    display: flex;
+    height: 44%;
+    background-color: rgba(184, 184, 184, 0.68);
+    padding-top: 80px;
+}
+.footer-left{
+    padding-top: 25px;
+    padding-left: 70px;
+    margin: 0 auto;
+    width: 40%;
+    height: 80%;
+    /*background-color: #2997ff;*/
+}
+.footer-right{
+    margin: 0 auto;
+    width: 25%;
+    height: 60%;
+    /*background-color: #ff82b0;*/
+}
+.location{
+    display: flex;
+    padding-bottom: 15px;
+}
+
+.location img{
+    height: 50px;
+    width: 50px;
+}
+.location p{
+    padding-top: 12px;
+    padding-left: 8px;
+
+}
+#maps{
+    text-decoration: none;
+}
+#maps:visited{
+    color: black;
+}
+#maps:link{
+    color: black;
+}
+.tel img{
+    height: 40px;
+    width: 40px;
+}
+.tel{
+    display: flex;
+    padding-bottom: 15px;
+    padding-left: 8px;
+}
+.tel p{
+    padding-top: 8px;
+    padding-left: 8px;
+}
+
+.email img{
+    height: 50px;
+    width: 50px;
+}
+.email{
+    display: flex;
+    padding-bottom: 5px;
+}
+.email p{
+    padding-top: 9px;
+    padding-left: 8px;
+}
+
+.footer-right-about h2{
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.footer-right-about p{
+    text-align: center;
+}
+.footer-img{
+    padding-top: 15px;
+    display: flex;
+    justify-content: space-around;
+}
+.footer-logos{
+    height: 50px;
+    width: 50px;
+}
+
+.line{
+    border: 1px solid black;
+}
